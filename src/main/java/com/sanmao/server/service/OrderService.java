@@ -5,5 +5,5 @@ import java.util.List;
 import com.sanmao.server.model.Order;
 
 public interface OrderService {
-	public List<Order> query(Order dto);
+	public List<Order> query(Order dto)throws RuntimeException;
 }
